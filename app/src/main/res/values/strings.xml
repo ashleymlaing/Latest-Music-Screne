@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Latest Music Scene</string>
+    <string name="drake_news_story">Drake surprised customers in a supermarket in Miami, Florida on Tuesday (06Feb18) by announcing he was going to buy all of their shopping for them</string>
+    <string name="selena_news_story">Selena Gomez has come to terms with the fact she\'ll be battling depression and anxiety for the rest of her life.</string>
+    <string name="Selena_Title">Selena Gomez</string>
+    <string name="Drake_Title">Drake Groceries</string>
+    <string name="drake_photo_des">Drake\'s Photo</string>
+    <string name="selena_photo_des">Selena Image</string>
+    <string name="btn_txt">See More</string>
+</resources>

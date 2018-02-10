@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashleylaing.latestmusicscene.MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitleDrake"
+        android:layout_width="180dp"
+        android:layout_height="109dp"
+        android:text="@string/Drake_Title"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDrake"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="@string/btn_txt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitleDrake" />
+
+    <Button
+        android:id="@+id/btnSelena"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_txt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSelenaTitle" />
+
+    <TextView
+        android:id="@+id/txtSelenaTitle"
+        android:layout_width="176dp"
+        android:layout_height="99dp"
+        android:text="@string/Selena_Title"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnSelena"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDrake" />
+
+    <ImageView
+        android:id="@+id/imgDrake"
+        android:layout_width="179dp"
+        android:layout_height="144dp"
+        android:contentDescription="@string/drake_photo_des"
+        app:layout_constraintBottom_toTopOf="@+id/btnDrake"
+        app:layout_constraintEnd_toStartOf="@+id/txtTitleDrake"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/drake" />
+
+    <ImageView
+        android:id="@+id/imgSelena"
+        android:layout_width="229dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/selena_photo_des"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/txtSelenaTitle"
+        app:layout_constraintTop_toBottomOf="@+id/btnDrake"
+        app:srcCompat="@drawable/selena" />
+
+</android.support.constraint.ConstraintLayout>
